@@ -1,0 +1,68 @@
+# Build directory
+build/
+build
+
+# ESP-IDF specific
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+dependencies.lock
+managed_components/
+*.pyc
+__pycache__/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.bin
+*.elf
+*.map
+*.hex
+*.o
+*.a
+*.d
+*.obj
+*.lst
+*.bak
+*.bak1
+*.bak2
+*.tmp
+*.temp
+*.orig
+*.rej
+*.patch
+*.diff
+
+# Debug files
+*.gdb
+*.elf
+*.map
+*.lst
+*.sym
+*.bin
+*.hex
+*.srec
+*.ihex
+*.uf2
+*.dfu
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.sym
+*.srec
+*.ihex
+*.uf2
+*.dfu 

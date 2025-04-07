@@ -1,0 +1,15 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "lcd_display_task.c"
+        "lvgl_demo_ui.c"
+        "room1_token.c"
+        "example1.c"
+    INCLUDE_DIRS 
+        "."
+    REQUIRES 
+        driver
+        esp_lcd
+        lvgl
+        esp_timer
+)
