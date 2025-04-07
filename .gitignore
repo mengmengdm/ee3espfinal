@@ -6,6 +6,10 @@ build
 sdkconfig
 sdkconfig.old
 sdkconfig.defaults
+sdkconfig.defaults.esp32s3
+sdkconfig.ci.double_fb
+sdkconfig.ci.single_fb_no_bb
+sdkconfig.ci.single_fb_with_bb
 dependencies.lock
 managed_components/
 *.pyc
