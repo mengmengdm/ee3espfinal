@@ -5,6 +5,7 @@ idf_component_register(
         "lvgl_demo_ui.c"
         "room1_token.c"
         "example1.c"
+        "esp_http_client_example.c"
     INCLUDE_DIRS 
         "."
     REQUIRES 
@@ -12,4 +13,11 @@ idf_component_register(
         esp_lcd
         lvgl
         esp_timer
+        esp_http_client
+        esp_https_ota
+        nvs_flash
+        esp_netif
+        esp_event
+        esp-tls
+        protocol_examples_common
 )

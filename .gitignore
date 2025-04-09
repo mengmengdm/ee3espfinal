@@ -5,8 +5,6 @@ build
 # ESP-IDF specific
 sdkconfig
 sdkconfig.old
-sdkconfig.defaults
-sdkconfig.defaults.esp32s3
 sdkconfig.ci.double_fb
 sdkconfig.ci.single_fb_no_bb
 sdkconfig.ci.single_fb_with_bb
@@ -56,16 +54,6 @@ Thumbs.db
 *.sym
 *.bin
 *.hex
-*.srec
-*.ihex
-*.uf2
-*.dfu
-*.hex
-*.bin
-*.elf
-*.map
-*.lst
-*.sym
 *.srec
 *.ihex
 *.uf2
